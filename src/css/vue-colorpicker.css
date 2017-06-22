@@ -1,0 +1,52 @@
+.color-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.color-list + * {
+	clear: both;
+}
+.color-list > li {
+	float: left;
+	padding: 5px;
+	position: relative;
+}
+.color-list > li > a {
+	display: block;
+	height: 22px;
+	width: 18px;
+	background: #CCC;
+}
+.color-list > li > a.noColor:after, .color-list > li > a.noColor.selected:after {
+	content: "";
+	background: red;
+	-webkit-transform: rotate(-51deg);
+  transform: rotate(-51deg);
+  display: inline-block;
+  position: absolute;
+  bottom: 15px;
+	top: 15px;
+  left: 1px;
+  width: 26px;
+  height: 2px;
+}
+.color-list > li > a:hover {
+	border: 1px solid #2e2e2e;
+}
+.color-list > li > a.selected {
+	border: 1px solid #2e2e2e;
+}
+.color-list > li > a.selected:after {
+	content: "\f00c";
+	font-family: FontAwesome;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 6px;
+}
+.color-list > li > a.noColor.selected {
+	border: 1px solid #2e2e2e;
+}

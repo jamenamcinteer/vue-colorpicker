@@ -1,0 +1,26 @@
+{
+  "name": "vue-colorpicker",
+  "version": "1.0.0",
+  "description": "Color picker Vue.js component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndjamenamarmon/vue-colorpicker.git"
+  },
+  "keywords": [
+    "vue.js",
+    "vue",
+    "color",
+    "picker",
+    "colorpicker"
+  ],
+  "author": "Jamena McInteer (http://webdevabq.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndjamenamarmon/vue-colorpicker/issues"
+  },
+  "homepage": "https://github.com/ndjamenamarmon/vue-colorpicker#readme"
+}
